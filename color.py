@@ -22,7 +22,7 @@ def set(text,color,bg='black',style='normal'):
     except:
         return text
         
-if True:
+if __name__=='__main__':
     print(set('black','black',bg='red'))
     print(set('red   ','red'))
     print(set('green ','green'))
